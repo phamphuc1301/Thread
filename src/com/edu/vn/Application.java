@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Application {
 	public static List<String> listTask = new ArrayList<>();
-	
+
 	public static void main(String[] args) {
 		
 		Worker worker1 = new Worker("quan");
