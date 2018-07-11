@@ -5,16 +5,15 @@ import java.util.List;
 
 public class Application {
 	public static List<String> listTask = new ArrayList<>();
-
 	public static void main(String[] args) {
 		
 		Worker worker1 = new Worker("quan");
 		Worker worker2 = new Worker("nghia");
 		Worker worker3 = new Worker("vinh");
 		Manager manager = new Manager("Trang");
-		Manager manager2 = new Manager("Trang");
-		Manager manager3 = new Manager("Trang");
-		Manager manager4 = new Manager("Trang");
+		Manager manager2 = new Manager("Thu");
+		Manager manager3 = new Manager("Ha");
+		Manager manager4 = new Manager("Mai");
 		worker1.start();
 		worker2.start();
 		manager.start();
